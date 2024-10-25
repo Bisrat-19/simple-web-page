@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+}
+.left{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.left div{
+    padding: 0.7em;
+    margin-top: 30%;
+    text-align: center;
+    background-color: rgba(48, 46, 46, 0.664);
+    color:wheat;
+    font-size: 2.2em;
+    font-family: "Rubik Wet Paint", system-ui;
+}
+.right{
+    background-color: aliceblue;
+}
+.top{
+    padding-left: 2em;
+    padding-top: 5em;
+    font-size: 1.3rem;
+    font-family:cursive, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif, Times, serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif ;
+    margin-top: 2em;
+}
+.acc{
+    border: 2px solid white;
+    background-color: white;
+    box-shadow: 1px 1px 2px;
+}
+.account p{
+    padding-left: 2em;
+    font-size: 1.5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif ;
+}
+.cont{
+    display: flex;
+    gap: 10vw;
+    padding-bottom: 5em;
+}
+.cont .div1{
+    padding-left: 3em;
+}
+.cont{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+.bottom #sub{
+    background-color: rgb(110, 206, 139);
+    border: 3px solid rgb(110, 206, 139);
+    border-radius: 10px;
+    margin-left: 3em;
+    margin-top: 3em;
+    padding: 10px;
+    width: 25%;
+    font-size: medium;
+    text-align: center;
+    color: white;
+}
+.bottom p{
+    font-size: 1.1em;
+    margin-bottom: 10em;
+}
+.form{
+    width: 130%;
+    height: 2em;
+    margin-bottom: 0.5em;
+    border-radius: 5px;
+}
